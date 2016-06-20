@@ -29,7 +29,7 @@ New file format, DAB. This is experimental.
 
 ## Docker for developers
 * > docker compose up
-* 
+*
 
 
 ## Open Questions?
