@@ -1,8 +1,5 @@
 # DockerCon 2016!!!
 
-Opening Day
-[![This is a test](https://drive.google.com/file/d/0BwgKn8Pz-AzBV254QzRPSDNIY3c/view?usp=sharing)]
-
 ## What's new in Docker
 * Swarm Mode
 * Services
