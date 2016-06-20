@@ -17,14 +17,19 @@ New file format, DAB. This is experimental.
 
 ### Routing Mesh
 ### Security out of the box
+* Automatic cert rotation
 
 ### Container Healthcheck
 >HEALTHCHECK in dockerfile.
 
 ### Docker plugin permission model.
 
+## Contributing to docker.
+* IRC: docker-dev
 
-## Questions?
+## Docker for developers
+
+
+## Open Questions?
 1. Docker manager node is it transfarable?. Manager could be a single point of failure.
 2. Can we take a node out of rotation so that the mesh would stop sending request. Basically healthcheck at runtime
-3.  
