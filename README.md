@@ -33,6 +33,16 @@ New file format, DAB. This is experimental.
 ## Docker and containerd
 * lightweight Container supervisor
 
+## runC OCI
+libcontainer interfaces with cgroups and namespace.
+OCI is a standard on how to design and implement containers.
+runc is a client wrapper around libcontainer. You need to provide a config.json and root filesystem.
+runc will use these two info to run your container. JSON is based on OCI spec.
+runc/libcontainer is the library contains all the low level OS stuff.
+`ocitools generate` creates a basic config.json to start with.
+
+## Unikernels
+
 
 ## Open Questions?
 1. Docker manager node is it transfarable?. Manager could be a single point of failure.
